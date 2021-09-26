@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Authors>Jean Collas</Authors>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>This tool aims at simplifying the share of dependency injection between Maui and Blazor in a mixed environment</Description>
+    <PackageProjectUrl>https://github.com/JeanCollas/MauiBlazorDependencyInjection</PackageProjectUrl>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/JeanCollas/MauiBlazorDependencyInjection</RepositoryUrl>
+    <PackageTags>maui;blazor;maui-blazor;dependency-injection</PackageTags>
+    <PackageId>DependencyInjectionMauiBlazor</PackageId>
+    <AssemblyName>DependencyInjectionMauiBlazor</AssemblyName>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <None Include="README.txt" Pack="true" PackagePath="\"/>
+	  <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
