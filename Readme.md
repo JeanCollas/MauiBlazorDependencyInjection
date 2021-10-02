@@ -5,7 +5,7 @@ This tool aims at simplifying the share of dependency injection between Maui and
 [DependencyInjectionMauiBlazor](https://www.nuget.org/packages/DependencyInjectionMauiBlazor/)
 [![NuGet Status](https://img.shields.io/nuget/v/DependencyInjectionMauiBlazor.svg?style=flat)](https://www.nuget.org/packages/DependencyInjectionMauiBlazor/) 
 
-![MAUI Blazor sample](../maui-blazor-sample.gif "MAUI Blazor sharing context sample")
+![MAUI Blazor sample](maui-blazor-sample.gif "MAUI Blazor sharing context sample")
 
 ## How to use ?
 
