@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjectionMauiBlazor", "DependencyInjectionMauiBlazor\DependencyInjectionMauiBlazor.csproj", "{614C77BD-5260-4524-97B8-B5F475E1A26E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBlazorSampleApp", "MauiBlazorSampleApp\MauiBlazorSampleApp.csproj", "{851D8D51-1C72-4C6B-AD2B-12D39ACE3FE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,12 @@ Global
 		{614C77BD-5260-4524-97B8-B5F475E1A26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{614C77BD-5260-4524-97B8-B5F475E1A26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{614C77BD-5260-4524-97B8-B5F475E1A26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851D8D51-1C72-4C6B-AD2B-12D39ACE3FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851D8D51-1C72-4C6B-AD2B-12D39ACE3FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851D8D51-1C72-4C6B-AD2B-12D39ACE3FE3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{851D8D51-1C72-4C6B-AD2B-12D39ACE3FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851D8D51-1C72-4C6B-AD2B-12D39ACE3FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851D8D51-1C72-4C6B-AD2B-12D39ACE3FE3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

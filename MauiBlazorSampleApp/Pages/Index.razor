@@ -1,0 +1,22 @@
+﻿@page "/"
+@inject TestSingletonService testeur
+
+<h1>Hello, world!</h1>
+
+<p>
+Welcome to your new app.
+</p>
+
+<p>
+Static instance counter : @testeur.Index
+</p>
+
+<p>
+Dynamic counter in Blazor : @testeur.Counter
+<br />
+<button class="btn btn-primary" @onclick="() => testeur.Counter++">Increment ++</button>
+</p>
+
+@{
+    testeur.PropertyChanged += (s,e) => this.StateHasChanged();
+}

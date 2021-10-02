@@ -1,0 +1,26 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:b="clr-namespace:Microsoft.AspNetCore.Components.WebView.Maui;assembly=Microsoft.AspNetCore.Components.WebView.Maui"
+             xmlns:local="clr-namespace:MauiBlazorSampleApp"
+             x:Class="MauiBlazorSampleApp.MainPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <ContentPage.BindingContext>
+        <local:MainPageViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Label Text="Static instances counter" Margin="240 0 0 10" HorizontalOptions="Start" VerticalOptions="Start" FontAttributes="Bold" />
+        <Label Text="{Binding Testeur.Index}" Margin="270 0 0 10"  HorizontalOptions="Start" VerticalOptions="Start" />
+
+        <Label Text="Dynamic counter in MAUI" Margin="340 0 0 10" HorizontalOptions="Start" VerticalOptions="Start" FontAttributes="Bold" />
+        <Label Text="{Binding Testeur.Counter}" Margin="370 0 0 10"  HorizontalOptions="Start" VerticalOptions="Start" />
+        <Button Text="Increment ++" Command="{Binding CounterIncrementCommand}" Margin="400 0 0 10"  HorizontalOptions="Start" VerticalOptions="Start" />
+
+        <b:BlazorWebView HostPage="wwwroot/index.html" Margin="0 0 0 220">
+            <b:BlazorWebView.RootComponents>
+                <b:RootComponent Selector="app" ComponentType="{x:Type local:Main}" />
+            </b:BlazorWebView.RootComponents>
+        </b:BlazorWebView>
+    </Grid>
+
+</ContentPage>
