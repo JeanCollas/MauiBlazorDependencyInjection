@@ -1,5 +1,9 @@
 ﻿This is a sample of a Windows Maui Blazor app, with shared services between Maui and Blazor to work on the same in-memory data
 
+
+![MAUI Blazor sample](../maui-blazor-sample.gif "MAUI Blazor sharing context sample")
+
+
 ## List of changes compared to the original template
 
 In .csproj
