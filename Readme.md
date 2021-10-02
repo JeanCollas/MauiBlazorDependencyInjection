@@ -37,13 +37,13 @@ public static class MauiProgram
 ```
 
 
-**4a. Use it as your factory from Maui side**
+**a. Use it as your factory from Maui side**
 
 ``` csharp
 Resolver.ServiceProvider.GetRequiredService<TestSingletonService>();
 Console.WriteLine($"Instance number {TestSingletonService.Index}");
 ```
-**4b. The services instances will be shared with your Blazor `@inject` services.**
+**b. The services instances will be shared with your Blazor `@inject` services.**
 ``` razor
 @inject TestSingletonService tester
 Instance number @(tester.Index).

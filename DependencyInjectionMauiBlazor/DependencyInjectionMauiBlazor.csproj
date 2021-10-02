@@ -13,10 +13,13 @@
     <PackageId>DependencyInjectionMauiBlazor</PackageId>
     <AssemblyName>DependencyInjectionMauiBlazor</AssemblyName>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <Version>$(VersionPrefix)1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
-	  <None Include="README.txt" Pack="true" PackagePath="\"/>
+	  <None Include="README.txt" Pack="true" PackagePath="\" />
 	  <None Include="..\Readme.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
