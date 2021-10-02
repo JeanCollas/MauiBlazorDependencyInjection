@@ -1,6 +1,9 @@
 ## Presentation
 This tool aims at simplifying the share of dependency injection between Maui and Blazor in a mixed environment
 
+## Nuget
+[DependencyInjectionMauiBlazor](https://www.nuget.org/packages/DependencyInjectionMauiBlazor/)
+
 ## How to use ?
 
 **In MauiProgram class**
